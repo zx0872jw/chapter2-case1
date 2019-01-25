@@ -24,11 +24,11 @@ namespace GreenvilleRevenue
             WriteLine("Last Years contestants: {0}", LastYear);
             WriteLine("This Years contestants: {0}", ThisYear);
             fee = 25;
-            This_Number1 = Convert.ToInt16(ThisYear);
-            This_Number2 = Convert.ToInt16(LastYear);
-            total_revenue = fee * This_Number1;
+            NumContestants1 = Convert.ToInt16(ThisYear);
+            NumContestants2 = Convert.ToInt16(LastYear);
+            total_revenue = fee * NumContestants1;
             WriteLine("Total Revenue this year: {0}", total_revenue);
-            if (This_Number1 > This_Number2)
+            if (NumContestants1 > NumContestants2)
                 {
                 WriteLine("This year has more contestants than last year.");
                 }
