@@ -9,12 +9,12 @@ namespace GreenvilleRevenue
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string ThisYear;
-            int This_Number1;
+            int NumContestants1;
             string LastYear;
-            int This_Number2;
+            int NumContestants2;
             int fee;
             int total_revenue;
             Write("The amount of contestants in last years competition: ");
