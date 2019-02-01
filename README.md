@@ -1,4 +1,4 @@
-# chapter2-case1
+# chapter3-case1
 using System;
 using System.Collections.Generic;
 using System.Linq;
